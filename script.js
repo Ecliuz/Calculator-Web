@@ -18,3 +18,17 @@ function divide(x, y) {
     }
 }
 
+function operate(a, operator, b) {
+    switch(operator){
+        case '+':
+            return add(a,b);
+        case '-':
+            return subtract(a,b);
+        case '*':
+            return multiply(a,b);
+        case '/':
+            return divide(a,b);
+        default:
+            break;
+    }
+}
