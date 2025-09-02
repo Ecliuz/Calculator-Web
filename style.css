@@ -49,5 +49,22 @@ button {
     font-size: 1.2rem;
     color: white;
     cursor: pointer;
-    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #505050;
+}
+
+button.operator {
+    background-color: #1FF8FF;
+    color: white;
+}
+
+button.operator:hover {
+    background-color: #8AFBFF;
+}
+
+button.equal {
+    flex: 2; /* Twice as wide */
+    background-color: #00F7FF;
 }
