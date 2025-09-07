@@ -19,7 +19,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-.display {
+#display {
     background-color: #1e1e1e;
     color: white;
     text-align: right;
@@ -64,7 +64,11 @@ button.operator:hover {
     background-color: #8AFBFF;
 }
 
-button.equal {
+#equal {
     flex: 2; /* Twice as wide */
     background-color: #00F7FF;
+}
+
+#equal:hover {
+    background-color: #8AFBFF;
 }

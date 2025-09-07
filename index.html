@@ -5,36 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="calc-body">
-        <div class="display">
+        <div id="display">
             0
         </div>
         <div class="buttons">
             <div class="row">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button id="clear">C</button>
+                <button id="percent">%</button>
+                <button id="delete">⌫</button>
+            </div>
+            <div class="row">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
                 <button class="operator">/</button>
             </div>
             <div class="row">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
                 <button class="operator">*</button>
             </div>
             <div class="row">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
                 <button class="operator">-</button>
             </div>
             <div class="row">
-                <button>.</button>
-                <button>0</button>
-                <button class="equal">=</button>
+                <button id="dot">.</button>
+                <button class="number">0</button>
+                <button id="equal">=</button>
                 <button class="operator">+</button>
             </div>
         </div>
